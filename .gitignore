@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep experiment run logs (overrides *.log above)
+!logs/*.log
