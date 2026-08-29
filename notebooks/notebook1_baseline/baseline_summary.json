@@ -1,0 +1,29 @@
+{
+  "input_file": "../data/variance_curves.csv",
+  "baseline_threshold": 0.01,
+  "training_n": [
+    8,
+    10,
+    12
+  ],
+  "held_out_n": [
+    14,
+    16
+  ],
+  "training_configurations": 21,
+  "training_censored": 0,
+  "product_A": 1166.0846032639029,
+  "product_c": 1.3538017251713454,
+  "product_c_standard_error": 0.11739198137107139,
+  "product_c_CI95_low": 1.1080974843670464,
+  "product_c_CI95_high": 1.5995059659756445,
+  "product_R2": 0.7991956009820431,
+  "product_MAE": 1.829082703941426,
+  "product_RMSE": 2.5467323154678083,
+  "product_MAPE_percent": 26.851257368114155,
+  "product_LOOCV_MAE": 2.091647495476253,
+  "best_AICc_model": "Product nk",
+  "best_LOOCV_MAE_model": "Product nk",
+  "nested_F_statistic": 1.7941385531337066,
+  "nested_F_pvalue": 0.19709107377890045
+}
