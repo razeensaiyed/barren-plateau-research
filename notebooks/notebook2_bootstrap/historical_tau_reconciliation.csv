@@ -1,0 +1,5 @@
+file,n_rows,n_values,n_min,n_max,c_fit,A_fit
+.\notebook1_baseline\all_reconstructed_tau.csv,40,"[8, 10, 12, 14, 16]",8,16,1.2989118842752672,988.5995348426187
+.\notebook1_baseline\baseline_predictions.csv,21,"[8, 10, 12]",8,12,1.3538017251713454,1166.0846032639029
+.\notebook1_baseline\baseline_tau_dataset.csv,21,"[8, 10, 12]",8,12,1.3538017251713454,1166.0846032639029
+.\notebook1_baseline\product_model_predictions.csv,21,"[8, 10, 12]",8,12,1.3538017251713454,1166.0846032639029
