@@ -1,0 +1,22 @@
+{
+  "checkpoint": 5,
+  "input_file": "variance_curves.csv",
+  "fixed_threshold": 0.01,
+  "C_values": [
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "training_n": [
+    8,
+    10,
+    12
+  ],
+  "held_out_n": [
+    14,
+    16
+  ],
+  "baseline_A": 1166.0846032639029,
+  "baseline_c": 1.3538017251713454
+}

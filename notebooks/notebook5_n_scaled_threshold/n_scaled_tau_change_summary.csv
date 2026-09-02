@@ -1,0 +1,5 @@
+C,mean_abs_delta_tau,median_abs_delta_tau,max_abs_delta_tau,mean_signed_delta_tau,censored
+1.0,24.6,27.0,30,24.6,40
+2.0,17.6,18.0,29,17.6,20
+5.0,13.2,10.5,29,11.6,13
+10.0,10.825,9.5,29,8.325,8
