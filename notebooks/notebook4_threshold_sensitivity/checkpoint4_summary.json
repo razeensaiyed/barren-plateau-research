@@ -1,0 +1,27 @@
+{
+  "checkpoint": 4,
+  "input_file": "variance_curves.csv",
+  "baseline_threshold": 0.01,
+  "tested_thresholds": [
+    0.1,
+    0.05,
+    0.02,
+    0.01,
+    0.005,
+    0.001,
+    0.0001
+  ],
+  "training_n": [
+    8,
+    10,
+    12
+  ],
+  "held_out_n": [
+    14,
+    16
+  ],
+  "baseline_A": 1166.0846032639029,
+  "baseline_c": 1.3538017251713454,
+  "n_thresholds": 7,
+  "monotonicity_violations": 0
+}
