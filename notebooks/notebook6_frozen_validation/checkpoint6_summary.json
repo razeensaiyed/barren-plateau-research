@@ -1,0 +1,25 @@
+{
+  "checkpoint": 6,
+  "input_file": "variance_curves.csv",
+  "threshold": 0.01,
+  "training_n": [
+    8,
+    10,
+    12
+  ],
+  "heldout_n": [
+    14,
+    16
+  ],
+  "A_frozen": 1166.0846032639029,
+  "c_frozen": 1.3538017251713454,
+  "training_observations": 21,
+  "heldout_observations": 19,
+  "heldout_MAE": 0.9488802059653799,
+  "heldout_RMSE": 1.4244223415408956,
+  "heldout_MAPE_percent": 23.471037098259025,
+  "heldout_R2": 0.8740609660322927,
+  "heldout_within_1_layer_percent": 68.42105263157895,
+  "heldout_within_2_layers_percent": 84.21052631578947,
+  "data_leakage": false
+}
