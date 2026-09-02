@@ -1,0 +1,39 @@
+{
+  "experiment_type": "independent_fresh_spot_reproduction",
+  "source_data_used": false,
+  "previous_results_used": false,
+  "framework": "PennyLane",
+  "framework_version": "0.44.1",
+  "simulator": "lightning.qubit",
+  "architecture": "Brick-Wall hardware-efficient ansatz",
+  "observable": "Z_0 tensor ... tensor Z_(k-1)",
+  "initial_state": "|0>^n",
+  "parameter_distribution": "Uniform(0, 2*pi)",
+  "gradient_estimator": "Complete gradient vector per initialization; all components pooled across initializations; single variance over pooled array",
+  "n_samples": 50,
+  "max_depth": 30,
+  "threshold": 0.01,
+  "spot_configurations": [
+    {
+      "n": 8,
+      "k": 2
+    },
+    {
+      "n": 8,
+      "k": 6
+    },
+    {
+      "n": 10,
+      "k": 4
+    },
+    {
+      "n": 12,
+      "k": 4
+    },
+    {
+      "n": 14,
+      "k": 2
+    }
+  ],
+  "master_seed": 20260901
+}
