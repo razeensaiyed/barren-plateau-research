@@ -1,0 +1,71 @@
+{
+  "checkpoint": 3,
+  "status": "PASS",
+  "dataset_source": "C:\\Users\\Abhishek\\Downloads\\repeatability_checkpoint (3).csv",
+  "total_runs": 50,
+  "configurations_evaluated": 5,
+  "configurations": [
+    {
+      "n": 8,
+      "k": 2,
+      "n_runs": 10,
+      "mean_tau": 21.0,
+      "std_tau": 0.0,
+      "CV_percent": 0.0,
+      "min_tau": 21.0,
+      "max_tau": 21.0,
+      "range": 0.0,
+      "stability": "EXCELLENT (Deterministic)"
+    },
+    {
+      "n": 10,
+      "k": 6,
+      "n_runs": 10,
+      "mean_tau": 4.0,
+      "std_tau": 0.0,
+      "CV_percent": 0.0,
+      "min_tau": 4.0,
+      "max_tau": 4.0,
+      "range": 0.0,
+      "stability": "EXCELLENT (Deterministic)"
+    },
+    {
+      "n": 12,
+      "k": 12,
+      "n_runs": 10,
+      "mean_tau": 1.0,
+      "std_tau": 0.0,
+      "CV_percent": 0.0,
+      "min_tau": 1.0,
+      "max_tau": 1.0,
+      "range": 0.0,
+      "stability": "EXCELLENT (Deterministic)"
+    },
+    {
+      "n": 14,
+      "k": 2,
+      "n_runs": 10,
+      "mean_tau": 13.0,
+      "std_tau": 0.0,
+      "CV_percent": 0.0,
+      "min_tau": 13.0,
+      "max_tau": 13.0,
+      "range": 0.0,
+      "stability": "EXCELLENT (Deterministic)"
+    },
+    {
+      "n": 14,
+      "k": 14,
+      "n_runs": 10,
+      "mean_tau": 1.0,
+      "std_tau": 0.0,
+      "CV_percent": 0.0,
+      "min_tau": 1.0,
+      "max_tau": 1.0,
+      "range": 0.0,
+      "stability": "EXCELLENT (Deterministic)"
+    }
+  ],
+  "curve_level_diagnostics_status": "UNAVAILABLE_IN_CHECKPOINT",
+  "conclusion": "The Barren Plateau onset threshold tau_BP is stable across independent random initializations (CV=0.0%)."
+}
