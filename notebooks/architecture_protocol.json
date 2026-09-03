@@ -1,0 +1,85 @@
+{
+  "checkpoint": 7,
+  "experiment": "architecture_generalization",
+  "architectures": [
+    "brickwall_1d",
+    "grid_2d",
+    "all_to_all"
+  ],
+  "threshold": 0.01,
+  "n_samples": 50,
+  "max_depth": 30,
+  "training_n": [
+    8,
+    10,
+    12
+  ],
+  "heldout_n": [
+    14
+  ],
+  "K_BY_N": {
+    "8": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "10": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "12": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "14": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14
+    ]
+  },
+  "simulator": "lightning.qubit",
+  "pennylane_version": "0.44.1",
+  "parameter_distribution": "Uniform(0, 2*pi)",
+  "observable": "Z_0 tensor ... tensor Z_(k-1)",
+  "gradient_estimator": "Pool all complete gradient components from all parameter sets and calculate one variance",
+  "tau_definition": "First depth where var_pooled < 1e-2",
+  "grid_shapes": {
+    "8": [
+      2,
+      4
+    ],
+    "10": [
+      2,
+      5
+    ],
+    "12": [
+      3,
+      4
+    ],
+    "14": [
+      2,
+      7
+    ]
+  },
+  "master_seed": 20260902
+}
