@@ -1,0 +1,33 @@
+{
+  "checkpoint": 8,
+  "experiment": "causal_cone_effective_support",
+  "architectures": [
+    "brickwall_1d",
+    "grid_2d",
+    "all_to_all"
+  ],
+  "threshold": 0.01,
+  "grid_shapes": {
+    "8": [
+      2,
+      4
+    ],
+    "10": [
+      2,
+      5
+    ],
+    "12": [
+      3,
+      4
+    ],
+    "14": [
+      2,
+      7
+    ]
+  },
+  "observable_support": "first k qubits",
+  "causal_cone_definition": "Backward support propagation through every two-qubit interaction layer",
+  "tau_source": "architecture_tau.csv",
+  "no_quantum_simulation": true,
+  "no_preselected_cone_threshold": true
+}
