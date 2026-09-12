@@ -1,0 +1,26 @@
+{
+  "checkpoint": 10,
+  "experiment": "state_2design_consistency_check",
+  "architectures": [
+    "brickwall_1d",
+    "grid_2d",
+    "all_to_all"
+  ],
+  "system_sizes": [
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "max_depth": 30,
+  "ensemble_size": 40,
+  "simulator": "lightning.qubit",
+  "pennylane_version": "0.44.1",
+  "estimator_type": "Unbiased Off-Diagonal U-Statistic",
+  "formula": "1 / (M * (M - 1)) * sum_{i != j} |<psi_i|psi_j>|^4",
+  "haar_target_formula": "2 / (d * (d + 1))",
+  "state_2design_criterion": "F2 / Haar <= 2.0",
+  "tau_source": "architecture_tau.csv",
+  "master_seed": 20260904
+}

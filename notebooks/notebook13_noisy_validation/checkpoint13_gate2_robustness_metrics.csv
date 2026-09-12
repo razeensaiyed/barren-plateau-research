@@ -1,0 +1,28 @@
+config,M,estimator,tau_exact,p_recovery,mean_delta_tau,false_pos_rate,false_neg_rate,status
+Interpolation Edge,100,raw,7,0.0,N/A,0.0,1.0,NOISE_CORRUPTED
+Interpolation Edge,100,oracle,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,100,emp,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,1000,raw,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,1000,oracle,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,1000,emp,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,10000,raw,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,10000,oracle,7,1.0,+0.00,0.0,0.0,PASS
+Interpolation Edge,10000,emp,7,1.0,+0.00,0.0,0.0,PASS
+Out-of-Sample Spot,100,raw,6,0.0,N/A,0.0,1.0,NOISE_CORRUPTED
+Out-of-Sample Spot,100,oracle,6,0.98,+0.02,0.02,0.0,PASS
+Out-of-Sample Spot,100,emp,6,0.98,+0.02,0.02,0.0,PASS
+Out-of-Sample Spot,1000,raw,6,0.66,+0.34,0.34,0.0,NOISE_CORRUPTED
+Out-of-Sample Spot,1000,oracle,6,1.0,+0.00,0.0,0.0,PASS
+Out-of-Sample Spot,1000,emp,6,1.0,+0.00,0.0,0.0,PASS
+Out-of-Sample Spot,10000,raw,6,1.0,+0.00,0.0,0.0,PASS
+Out-of-Sample Spot,10000,oracle,6,1.0,+0.00,0.0,0.0,PASS
+Out-of-Sample Spot,10000,emp,6,1.0,+0.00,0.0,0.0,PASS
+Small / Baseline,100,raw,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,100,oracle,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,100,emp,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,1000,raw,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,1000,oracle,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,1000,emp,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,10000,raw,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,10000,oracle,Censored (>8),1.0,N/A,0.0,0.0,PASS
+Small / Baseline,10000,emp,Censored (>8),1.0,N/A,0.0,0.0,PASS

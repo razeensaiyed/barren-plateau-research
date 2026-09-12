@@ -1,0 +1,6 @@
+config_name,n,k,tau_BP_pennylane,tau_BP_qiskit,delta_tau,status
+Small / Baseline,8,2,-1,-1,0,PASS / AGREED RIGHT-CENSORED
+Small / Locality,8,4,-1,-1,0,PASS / AGREED RIGHT-CENSORED
+Intermediate,12,2,-1,-1,0,PASS / AGREED RIGHT-CENSORED
+Interpolation Edge,14,4,7,7,0,PASS
+Out-of-Sample Spot,18,4,6,6,0,PASS

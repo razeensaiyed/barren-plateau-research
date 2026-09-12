@@ -1,0 +1,10 @@
+config,estimator,tau_exact,M_star,p_at_M_star,operational_recovery
+Interpolation Edge,raw,7,1000,100.00%,True
+Interpolation Edge,oracle,7,100,100.00%,True
+Interpolation Edge,emp,7,100,100.00%,True
+Out-of-Sample Spot,raw,6,10000,100.00%,True
+Out-of-Sample Spot,oracle,6,100,98.00%,True
+Out-of-Sample Spot,emp,6,100,98.00%,True
+Small / Baseline,raw,Censored (>8),100,100.00%,True
+Small / Baseline,oracle,Censored (>8),100,100.00%,True
+Small / Baseline,emp,Censored (>8),100,100.00%,True

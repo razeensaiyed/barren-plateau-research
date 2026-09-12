@@ -1,0 +1,36 @@
+{
+  "checkpoint": 11,
+  "experiment": "larger_system_scaling_validation",
+  "frozen_parameters": {
+    "A": 1166.084603,
+    "c": 1.353802,
+    "source": "Notebook 6 (frozen on n in {8, 10, 12})",
+    "immutable": true
+  },
+  "system_sizes": [
+    18,
+    20
+  ],
+  "localities": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    10
+  ],
+  "max_depth": 20,
+  "samples_per_depth": 50,
+  "threshold": 0.01,
+  "simulator": "lightning.qubit",
+  "diff_method": "adjoint",
+  "pennylane_version": "0.44.1",
+  "master_seed": 20260905,
+  "outputs": {
+    "raw_curves": "notebook11_large_scale_validation\\large_scale_variance_curves.csv",
+    "observed_tau": "notebook11_large_scale_validation\\large_scale_observed_tau.csv",
+    "metrics": "notebook11_large_scale_validation\\large_scale_validation_metrics.csv",
+    "fig_parity": "notebook11_large_scale_validation\\observed_vs_predicted_large_scale.png",
+    "fig_curves": "notebook11_large_scale_validation\\variance_curves_large_scale.png"
+  }
+}

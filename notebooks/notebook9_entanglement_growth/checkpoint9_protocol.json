@@ -1,0 +1,67 @@
+{
+  "checkpoint": 9,
+  "experiment": "entanglement_growth_analysis",
+  "architectures": [
+    "brickwall_1d",
+    "grid_2d",
+    "all_to_all"
+  ],
+  "n_values": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "k_by_n": {
+    "8": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "10": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10
+    ],
+    "12": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12
+    ],
+    "14": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      14
+    ]
+  },
+  "n_samples": 50,
+  "max_depth": 30,
+  "simulator": "lightning.qubit",
+  "parameter_distribution": "Uniform(0, 2*pi)",
+  "ansatz": "One RY per qubit followed by architecture-specific two-qubit matching",
+  "bipartition": "First floor(n/2) qubits versus remaining qubits",
+  "entropy": "Von Neumann entropy in bits",
+  "normalized_entropy": "Entropy divided by maximum bipartite entropy",
+  "entropy_saturation_criterion": 0.95,
+  "tau_source": "architecture_tau.csv",
+  "master_seed": 20260903,
+  "important": "Entropy saturation thresholds are descriptive and are not used as alternative BP definitions."
+}
